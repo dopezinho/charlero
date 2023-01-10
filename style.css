@@ -44,7 +44,7 @@ time, mark, audio, video {
 /*  CSSZIN  */
 
 body {
-    background-color: #f1e3bea7;
+    background-color: #e1b845a7;
     max-width: 100vh;
     max-height: 100vh;
 }
@@ -130,6 +130,7 @@ main {
 .minus, .minus1, .plus, .plus1 {
     cursor: pointer;    
     font-family: 'Bakbak One', cursive;
+    color: transparent;
 }
 
 .minus:hover, .minus1:hover, .plus:hover, .plus1:hover {
