@@ -44,7 +44,7 @@ time, mark, audio, video {
 /*  CSSZIN  */
 
 body {
-    background-color: #9ff694;
+    background-color: #000000;
     max-width: 100vh;
     max-height: 100vh;
 }
@@ -229,7 +229,6 @@ footer {
 
 @media screen and (min-width: 900px) {
     body {
-        background-color: #000000;
         border: 3px solid #f0297c;
         border-radius: 12px;
     }
