@@ -229,6 +229,7 @@ footer {
 
 @media screen and (min-width: 900px) {
     body {
+        background-color: #000000;
         border: 3px solid #f0297c;
         border-radius: 12px;
     }
