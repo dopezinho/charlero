@@ -44,7 +44,7 @@ time, mark, audio, video {
 /*  CSSZIN  */
 
 body {
-    background-color: #e1b845a7;
+    background-color: #9ff694;
     max-width: 100vh;
     max-height: 100vh;
 }
@@ -55,7 +55,7 @@ header {
 
 header h1 {
     align-items: center;
-    color: #630b0b;
+    color: #e789bf;
     display: flex;
     font-family: 'Playfair Display SC', serif;
     font-size: 3vh;
@@ -65,7 +65,7 @@ header h1 {
 }
 header h3 {
     align-items: center;
-    color: #8e8b8b69;
+    color: transparent;
     display: flex;
     font-size: 1.5vh;
     font-weight: 600;
@@ -100,7 +100,7 @@ main {
 .players,
 .players1 {
     align-items: center;
-    color: #3f2709e6;
+    color: #6958ca;
     display: flex;
     font-weight: bold;
     justify-content: center;
@@ -109,7 +109,7 @@ main {
 
 .wrapper {
     align-items: center;
-    color: #6c4617d6;
+    color: #e789be72;
     display: flex;
     font-weight: 600;
     justify-content: center;
@@ -224,6 +224,40 @@ footer {
     justify-content: center;
     padding: 1vh 2vh 0 2vh;
 } 
+
+/*  MEDIA KIT  */
+
+@media screen and (min-width: 900px) {
+    body {
+        border: 3px solid #f0297c;
+        border-radius: 12px;
+    }
+
+    header {
+        border: 3px solid #f0297c;
+        border-radius: 12px;
+    }
+
+    main {
+        border: 3px solid #f0297c;
+        border-radius: 12px;
+    }
+
+    #template {
+        border: 3px solid #f0297c;
+        border-radius: 12px;
+    }
+
+    .players, .players1, .wrapper {
+        border: 3px solid #f0297c;
+        border-radius: 12px;
+    }
+
+    footer {
+        border: 3px solid #f0297c;
+        border-radius: 12px;
+    }
+}
 
 /*  WEBKIT  */
 
